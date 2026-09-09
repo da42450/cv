@@ -1,0 +1,70 @@
+{
+  "name": "Daniel Aguilar",
+  "tagline": "I am a software enginner specialized in full stack development and machine learning. I am also interested in Virtual/Extended Reality.",
+  "headshot": "images/headshot.jpg",
+  "contact": {
+    "address": "105 Hooper St.",
+    "phone": "(123) 456-7890",
+    "email": "da42450@uga.edu",
+    "linkedin": "https://www.linkedin.com/in/daniel-aguilar-polanco-813171283/"
+  },
+  "education": {
+    "school": "University of Georgia",
+    "gpa": "4.0",
+    "degree": "Bachelor of Science in Computer Science",
+    "graduation_date": "May 2027"
+  },
+  "honors_and_awards": [
+    {
+      "honor": "Scholarship Award",
+      "date": "2023"
+    },
+    {
+      "honor": "Scholarship Award",
+      "date": "2024"
+    }
+  ],
+  "skills": [
+    "HTML/CSS/JS",
+    "Java",
+    "Machine Learning",
+    "Virtual/Extended Reality"
+  ],
+  "Experience": [
+    {
+      "position": "Junior Developer at Dinycon Sistemas",
+      "date": "2024\u2013Present",
+      "link": "https://dinycon.com/"
+    },
+    {
+      "position": "Shadowing intern at IEU",
+      "date": "2023"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Automated Pipeline for data quality detecton and restoration",
+      "image": "images/proj_img1.jpg",
+      "descr": [
+        "Created an automated pipeline for data quality detection and restoration",
+        "Used Python, SQL, and Docker"
+      ]
+    },
+    {
+      "title": "Sleepy Driver Detection System",
+      "image": "images/proj_img2.jpg",
+      "descr": [
+        "Used YoloV8 to detect drowsy drivers",
+        "Used Flask to create a REST API"
+      ]
+    },
+    {
+      "title": "Resume Builder",
+      "image": "images/proj_img3.jpg",
+      "descr": [
+        "JSON to HTML conversion",
+        "Practice with DOM"
+      ]
+    }
+  ]
+}
