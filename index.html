@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Daniel Aguilar</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <nav>
@@ -13,9 +14,9 @@
   </nav>
 
   <h1>Daniel Aguilar</h1>
-  <img src="images/headshot.jpg" alt="Headshot of Daniel Aguilar" width="200">
+  <img class="headshot" src="images/headshot.jpg" alt="Headshot of Daniel Aguilar">
   <p>105 Hooper St. &#9632; (123) 456-7890 &#9632; da42450@uga.edu</p>
-  <p>I am a software enginner specialized in full stack development and machine learning. I am also interested in Virtual/Extended Reality.</p>
+  <p>I am a software engineer specialized in full stack development and machine learning. I am also interested in Virtual/Extended Reality.</p>
 
   <hr>
 
@@ -54,36 +55,40 @@
     <dl>
       <dt><a href="https://dinycon.com/">Junior Developer at Dinycon Sistemas</a></dt>
       <dd>2024–Present</dd>
+      <dd>Built and maintained software features while collaborating with a development team on production projects.</dd>
       <dt>Shadowing intern at IEU</dt>
       <dd>2023</dd>
+      <dd>Observed engineering workflows and assisted with basic technical tasks to learn industry practices.</dd>
     </dl>
   </section>
 
   <section>
     <h2>Projects</h2>
-    <div>
-      <h3>Automated Pipeline for data quality detecton and restoration</h3>
-      <img src="images/proj_img1.jpg" alt="Automated data quality pipeline project" width="100">
-      <ul>
-        <li>Created an automated pipeline for data quality detection and restoration</li>
-        <li>Used Python, SQL, and Docker</li>
-      </ul>
-    </div>
-    <div>
-      <h3>Sleepy Driver Detection System</h3>
-      <img src="images/proj_img2.jpg" alt="Sleepy driver detection system project" width="100">
-      <ul>
-        <li>Used YoloV8 to detect drowsy drivers</li>
-        <li>Used Flask to create a REST API</li>
-      </ul>
-    </div>
-    <div>
-      <h3>Resume Builder</h3>
-      <img src="images/proj_img3.jpg" alt="Resume builder project" width="100">
-      <ul>
-        <li>JSON to HTML conversion</li>
-        <li>Practice with DOM</li>
-      </ul>
+    <div class="projects">
+      <div class="card">
+        <h3>Automated Pipeline for data quality detection and restoration</h3>
+        <img src="images/proj_img1.jpg" alt="Automated data quality pipeline project">
+        <ul>
+          <li>Created an automated pipeline for data quality detection and restoration</li>
+          <li>Used Python, SQL, and Docker</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Sleepy Driver Detection System</h3>
+        <img src="images/proj_img2.jpg" alt="Sleepy driver detection system project">
+        <ul>
+          <li>Used YoloV8 to detect drowsy drivers</li>
+          <li>Used Flask to create a REST API</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Resume Builder</h3>
+        <img src="images/proj_img3.jpg" alt="Resume builder project">
+        <ul>
+          <li>JSON to HTML conversion</li>
+          <li>Practice with DOM</li>
+        </ul>
+      </div>
     </div>
   </section>
 
